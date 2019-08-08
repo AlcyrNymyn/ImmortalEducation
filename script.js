@@ -2,14 +2,14 @@ function getAnswer() {
 
 var value = document.getElementById("test").value;
 
-  if(value == Y || value == y){
+  if(value == "Y" || value == "y"){
   //If is true
   alert("Yes /*parameters*/");
   //If is false
   alert("That is incorrect /*parameters*/");
   }
   
-  else if(value == N || value == n){
+  else if(value == "N" || value == "n"){
   //See above
   }
   
