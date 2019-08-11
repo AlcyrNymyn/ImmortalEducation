@@ -121,7 +121,49 @@
             raids, the more money you will take. <br>If you do need to defeat military units to win the war, determine
             the least expensive way to do so and win that raid before other nations beat you to it.
     </p>
+            <br />
 
+<p>Test your self: <i>(Try this question to help you on the test!)</i><br />
+
+<i><strong>Should you attack a nation with a yellow diamond?</strong></i><br />
+
+<input type="text" placeholder="Y or N" id="test" class="form-control">
+
+<br />
+
+<button onclick="gradeFunction()" class ="btn btn-primary">Answer</button>
+
+</p>
+
+<script>
+
+    function gradeFunction() {
+
+        var value = document.getElementById("test").value;
+
+
+
+        if(value == "Y" || value == "y"){
+
+            alert("That is incorrect, yellow means they were active in the past 24 hours.");
+
+        }
+
+        else  if(value == "N" || value =="n"){
+
+            alert("That is correct, yellow means they were active in the past 24 hours.");
+
+        }
+
+        else {
+
+            alert("We do not know what you mean, please try again.");
+
+        }
+
+    }
+
+</script>
     <br />
     <br />
     <hr />
